@@ -12,6 +12,6 @@ Data Pre-Processing:
 2) Filled the missing values of all the columns which either or Mean, Median, Mode.
 
 Model Selection:
-1) (Tentative) K-means Clustering: Cluster Orders based on geographical data.
-2) (Tentative) A* : To conjure a route which is efficient/optimal for delivery.
+1) K-means Clustering: Cluster Orders based on geographical data.
+2) (Tentative) VRP : To conjure a route which is efficient/optimal for delivery.
 3) XGBoost: To estimate delivery time and route accurately.
