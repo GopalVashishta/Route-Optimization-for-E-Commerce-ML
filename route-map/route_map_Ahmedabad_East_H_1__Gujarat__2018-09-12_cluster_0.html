@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_84aa35f3d72c238e07ae1a55b19474da {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_84aa35f3d72c238e07ae1a55b19474da" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_84aa35f3d72c238e07ae1a55b19474da = L.map(
+                "map_84aa35f3d72c238e07ae1a55b19474da",
+                {
+                    center: [23.015457, 72.607002],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ae4104acfecebf60bfd62a40c3be0dfc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ae4104acfecebf60bfd62a40c3be0dfc.addTo(map_84aa35f3d72c238e07ae1a55b19474da);
+        
+    
+            var marker_e302ec4e9516a09dbc3ab6db8384f595 = L.marker(
+                [23.015457, 72.607002],
+                {
+}
+            ).addTo(map_84aa35f3d72c238e07ae1a55b19474da);
+        
+    
+            var icon_f514fd0fec1b67a1f05bd4b8be7d60cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e3e0548cb38383802151006711eb250 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fe39ebe6c93289e3f3bae12550f77e3 = $(`<div id="html_0fe39ebe6c93289e3f3bae12550f77e3" style="width: 100.0%; height: 100.0%;">Ahmedabad_East_H_1 (Gujarat)</div>`)[0];
+                popup_0e3e0548cb38383802151006711eb250.setContent(html_0fe39ebe6c93289e3f3bae12550f77e3);
+            
+        
+
+        marker_e302ec4e9516a09dbc3ab6db8384f595.bindPopup(popup_0e3e0548cb38383802151006711eb250)
+        ;
+
+        
+    
+    
+                marker_e302ec4e9516a09dbc3ab6db8384f595.setIcon(icon_f514fd0fec1b67a1f05bd4b8be7d60cb);
+            
+    
+            var marker_c79c1d6c2c545b6aa3b40b2d02e4ebda = L.marker(
+                [21.2094892, 72.8317058],
+                {
+}
+            ).addTo(map_84aa35f3d72c238e07ae1a55b19474da);
+        
+    
+            var icon_c4b3e3f3c2bcf9aa86ad0de2e9bc3786 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c5d9e043faf6c5db2ed91e8dc190831 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3000a7b9ac90da5799850f3860435bac = $(`<div id="html_3000a7b9ac90da5799850f3860435bac" style="width: 100.0%; height: 100.0%;">Surat_HUB (Gujarat)</div>`)[0];
+                popup_4c5d9e043faf6c5db2ed91e8dc190831.setContent(html_3000a7b9ac90da5799850f3860435bac);
+            
+        
+
+        marker_c79c1d6c2c545b6aa3b40b2d02e4ebda.bindPopup(popup_4c5d9e043faf6c5db2ed91e8dc190831)
+        ;
+
+        
+    
+    
+                marker_c79c1d6c2c545b6aa3b40b2d02e4ebda.setIcon(icon_c4b3e3f3c2bcf9aa86ad0de2e9bc3786);
+            
+    
+            var marker_1ff6c4df897a7dbdb844680922c7d7c6 = L.marker(
+                [22.54853245, 73.00013651825472],
+                {
+}
+            ).addTo(map_84aa35f3d72c238e07ae1a55b19474da);
+        
+    
+            var icon_2c0de781e136c7a7c59c829e4e378829 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92051c4f72aa598a071eff3f3da4d20a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e42263d7b2668bf883b912a27d565db = $(`<div id="html_1e42263d7b2668bf883b912a27d565db" style="width: 100.0%; height: 100.0%;">Anand_Vaghasi_IP (Gujarat)</div>`)[0];
+                popup_92051c4f72aa598a071eff3f3da4d20a.setContent(html_1e42263d7b2668bf883b912a27d565db);
+            
+        
+
+        marker_1ff6c4df897a7dbdb844680922c7d7c6.bindPopup(popup_92051c4f72aa598a071eff3f3da4d20a)
+        ;
+
+        
+    
+    
+                marker_1ff6c4df897a7dbdb844680922c7d7c6.setIcon(icon_2c0de781e136c7a7c59c829e4e378829);
+            
+    
+            var marker_d6c40d8f743ea63962796a3d4036acd1 = L.marker(
+                [22.7785001, 73.6245157],
+                {
+}
+            ).addTo(map_84aa35f3d72c238e07ae1a55b19474da);
+        
+    
+            var icon_ea51a3412f142fea646d1cd5916c336b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f5cadb1f9dd661e20cb9fc379545843 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97480d12c5e2ef2778a279962cf9ae8f = $(`<div id="html_97480d12c5e2ef2778a279962cf9ae8f" style="width: 100.0%; height: 100.0%;">Godhra_DC (Gujarat)</div>`)[0];
+                popup_8f5cadb1f9dd661e20cb9fc379545843.setContent(html_97480d12c5e2ef2778a279962cf9ae8f);
+            
+        
+
+        marker_d6c40d8f743ea63962796a3d4036acd1.bindPopup(popup_8f5cadb1f9dd661e20cb9fc379545843)
+        ;
+
+        
+    
+    
+                marker_d6c40d8f743ea63962796a3d4036acd1.setIcon(icon_ea51a3412f142fea646d1cd5916c336b);
+            
+    
+            var marker_52a8769ca4d05c899dada030e40d6ccc = L.marker(
+                [23.022064, 72.562939],
+                {
+}
+            ).addTo(map_84aa35f3d72c238e07ae1a55b19474da);
+        
+    
+            var icon_78277d206db6da2799d1f83036cfcf98 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd434f6b95975c91508d499713748c74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f33a4bc26c69aab84d72fcc487cb672 = $(`<div id="html_1f33a4bc26c69aab84d72fcc487cb672" style="width: 100.0%; height: 100.0%;">Amdavad_East (Gujarat)</div>`)[0];
+                popup_dd434f6b95975c91508d499713748c74.setContent(html_1f33a4bc26c69aab84d72fcc487cb672);
+            
+        
+
+        marker_52a8769ca4d05c899dada030e40d6ccc.bindPopup(popup_dd434f6b95975c91508d499713748c74)
+        ;
+
+        
+    
+    
+                marker_52a8769ca4d05c899dada030e40d6ccc.setIcon(icon_78277d206db6da2799d1f83036cfcf98);
+            
+    
+            var marker_0e4916231129c62781c617b5e8069577 = L.marker(
+                [23.107813, 72.579807],
+                {
+}
+            ).addTo(map_84aa35f3d72c238e07ae1a55b19474da);
+        
+    
+            var icon_3b455b5e56f86a6dce6ba497fb0da95c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f30a49e78e004959f033b674001af37d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbcc1977fb621a22a1ef0f0b9b8b0634 = $(`<div id="html_bbcc1977fb621a22a1ef0f0b9b8b0634" style="width: 100.0%; height: 100.0%;">Amd_Chandkheda_Dc (Gujarat)</div>`)[0];
+                popup_f30a49e78e004959f033b674001af37d.setContent(html_bbcc1977fb621a22a1ef0f0b9b8b0634);
+            
+        
+
+        marker_0e4916231129c62781c617b5e8069577.bindPopup(popup_f30a49e78e004959f033b674001af37d)
+        ;
+
+        
+    
+    
+                marker_0e4916231129c62781c617b5e8069577.setIcon(icon_3b455b5e56f86a6dce6ba497fb0da95c);
+            
+    
+            var poly_line_657474a16e469a5ac2a219e982f9cf1a = L.polyline(
+                [[23.015457, 72.607002], [22.54853245, 73.00013651825472], [21.2094892, 72.8317058], [22.7785001, 73.6245157], [23.107813, 72.579807], [23.022064, 72.562939], [23.015457, 72.607002]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_84aa35f3d72c238e07ae1a55b19474da);
+        
+    
+        var popup_012313f07e313c8a3614a17911dbb49d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_203abc2c40c762906811207e74f93fb1 = $(`<div id="html_203abc2c40c762906811207e74f93fb1" style="width: 100.0%; height: 100.0%;">Cluster 0: 531.06 km</div>`)[0];
+                popup_012313f07e313c8a3614a17911dbb49d.setContent(html_203abc2c40c762906811207e74f93fb1);
+            
+        
+
+        poly_line_657474a16e469a5ac2a219e982f9cf1a.bindPopup(popup_012313f07e313c8a3614a17911dbb49d)
+        ;
+
+        
+    
+</script>
+</html>

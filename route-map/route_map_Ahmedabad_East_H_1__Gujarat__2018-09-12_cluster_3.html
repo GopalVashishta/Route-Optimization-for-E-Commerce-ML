@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3ce9ebca5a9aeadafbfd8850056927ce {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3ce9ebca5a9aeadafbfd8850056927ce" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3ce9ebca5a9aeadafbfd8850056927ce = L.map(
+                "map_3ce9ebca5a9aeadafbfd8850056927ce",
+                {
+                    center: [23.015457, 72.607002],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ba157b97b3608335b6d26b2d68f3b68f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ba157b97b3608335b6d26b2d68f3b68f.addTo(map_3ce9ebca5a9aeadafbfd8850056927ce);
+        
+    
+            var marker_2f3dab10987d9801ff490a3f4404c984 = L.marker(
+                [23.015457, 72.607002],
+                {
+}
+            ).addTo(map_3ce9ebca5a9aeadafbfd8850056927ce);
+        
+    
+            var icon_091067e82ecbe1b9e71eab10bed64d84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2117fd846c0a544ba829e2c204adfc10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_048021f24fb693c4b0eaf74da5e1c647 = $(`<div id="html_048021f24fb693c4b0eaf74da5e1c647" style="width: 100.0%; height: 100.0%;">Ahmedabad_East_H_1 (Gujarat)</div>`)[0];
+                popup_2117fd846c0a544ba829e2c204adfc10.setContent(html_048021f24fb693c4b0eaf74da5e1c647);
+            
+        
+
+        marker_2f3dab10987d9801ff490a3f4404c984.bindPopup(popup_2117fd846c0a544ba829e2c204adfc10)
+        ;
+
+        
+    
+    
+                marker_2f3dab10987d9801ff490a3f4404c984.setIcon(icon_091067e82ecbe1b9e71eab10bed64d84);
+            
+    
+            var marker_715059fdc57aa76bf26baa0e19cd183b = L.marker(
+                [24.3187274, 73.1951451],
+                {
+}
+            ).addTo(map_3ce9ebca5a9aeadafbfd8850056927ce);
+        
+    
+            var icon_3bbf46b62e4151936911c6b1b95d7e24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_898934cc178189680c4820ffdfec394a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_929a1186ff543d1a78877ba621e5c6ff = $(`<div id="html_929a1186ff543d1a78877ba621e5c6ff" style="width: 100.0%; height: 100.0%;">Udaipur_Mangri_I (Rajasthan)</div>`)[0];
+                popup_898934cc178189680c4820ffdfec394a.setContent(html_929a1186ff543d1a78877ba621e5c6ff);
+            
+        
+
+        marker_715059fdc57aa76bf26baa0e19cd183b.bindPopup(popup_898934cc178189680c4820ffdfec394a)
+        ;
+
+        
+    
+    
+                marker_715059fdc57aa76bf26baa0e19cd183b.setIcon(icon_3bbf46b62e4151936911c6b1b95d7e24);
+            
+    
+            var poly_line_7e2df3193453797d3c6bd349f34eec83 = L.polyline(
+                [[23.015457, 72.607002], [24.3187274, 73.1951451], [23.015457, 72.607002]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_3ce9ebca5a9aeadafbfd8850056927ce);
+        
+    
+        var popup_de933c0e74fb0c0219b450b84b38b8fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_349bbac72fc367a41f51be3564010a6f = $(`<div id="html_349bbac72fc367a41f51be3564010a6f" style="width: 100.0%; height: 100.0%;">Cluster 3: 156.81 km</div>`)[0];
+                popup_de933c0e74fb0c0219b450b84b38b8fd.setContent(html_349bbac72fc367a41f51be3564010a6f);
+            
+        
+
+        poly_line_7e2df3193453797d3c6bd349f34eec83.bindPopup(popup_de933c0e74fb0c0219b450b84b38b8fd)
+        ;
+
+        
+    
+</script>
+</html>
